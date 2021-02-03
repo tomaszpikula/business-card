@@ -5,3 +5,19 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body {
+    background-color: #2C2141;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center
+
+}
+
+.main {
+    background-color: #F8F8F8;
+    border-radius: 16px;
+    width: 624px;
+    margin: 16px;
+}
