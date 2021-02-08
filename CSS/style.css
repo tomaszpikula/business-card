@@ -21,12 +21,25 @@ body {
     width: 624px;
     margin: 16px;
     padding: 32px;
+}
+
+.person {
     display: flex;
+    align-items: flex-start;
 }
 
 .person__description {
     font-size: 16px;
     line-height: 22px;
+    margin: 0;
+}
+
+.person__description--with-margin {
+    margin-bottom: 22px;
+}
+
+.person__info {
+    margin-bottom: 24px;
 }
 
 .person__link {
@@ -39,6 +52,10 @@ body {
     font-family: arial, sans-serif;
     font-size: 36px;
     margin: 0;
+}
+
+.person__picture {
+    margin-right: 32px;
 }
 
 .person__profession {
